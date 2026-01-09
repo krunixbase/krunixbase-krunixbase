@@ -1,3 +1,4 @@
+
 ## Foundational Security Model
 
 The Krunixbase ecosystem is architected around **Shamir’s Secret Sharing (SSS)**
