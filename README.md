@@ -25,13 +25,10 @@ with a strong emphasis on mathematical rigor and reproducibility.
 
 ---
 
-## 🔐 Cryptography & Secret Sharing (Foundational Layer)
+## 🔐 Cryptography & Secret Sharing
 
-Core repositories dedicated to Shamir Secret Sharing and cryptographic validation:
 This layer represents the cryptographic foundation of the Krunixbase ecosystem,
 with Shamir’s Secret Sharing as the primary trust‑distribution mechanism.
-
-
 
 - **shamir-sss-validation-suite**  
   Reference validation suite for Shamir Secret Sharing, including formal mathematical proofs,
