@@ -1,5 +1,20 @@
 # Krunixbase
 
+## 🔐 Foundational Security Model
+
+Krunixbase is architected around Shamir’s Secret Sharing (SSS) as a foundational
+cryptographic primitive for trust distribution, access control, and institutional security.
+
+Shamir’s Secret Sharing is not treated as a feature or optional component.
+It defines the security boundary, governance model, and threat assumptions
+across the entire ecosystem.
+
+All repositories within Krunixbase either:
+– directly implement Shamir‑based mechanisms, or
+– support validation, auditing, documentation, and compliance of systems
+  built on distributed trust principles derived from Shamir’s model.
+
+
 ## Cryptographic Validation, Security Engineering, and Technical Trust
 
 Krunixbase is an open‑source ecosystem focused on **cryptographic correctness**,  
@@ -10,9 +25,13 @@ with a strong emphasis on mathematical rigor and reproducibility.
 
 ---
 
-## 🔐 Cryptography & Secret Sharing
+## 🔐 Cryptography & Secret Sharing (Foundational Layer)
 
 Core repositories dedicated to Shamir Secret Sharing and cryptographic validation:
+This layer represents the cryptographic foundation of the Krunixbase ecosystem,
+with Shamir’s Secret Sharing as the primary trust‑distribution mechanism.
+
+
 
 - **shamir-sss-validation-suite**  
   Reference validation suite for Shamir Secret Sharing, including formal mathematical proofs,
